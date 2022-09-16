@@ -3,7 +3,7 @@ from datetime import datetime
 
 from matplotlib import pyplot as plt
 
-filename = 'data/sitka_weather_2018_simple.csv'
+filename = 'data/navarre_weather_2017-2022.csv'
 with open(filename) as f:
     reader = csv.reader(f)
     header_row = next(reader)
